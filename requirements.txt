@@ -1,11 +1,13 @@
-tensorflow-cpu==2.3.*
+tensorflow<2.16
+tensorflow-addons==0.23.0
+# tensorflow-cpu==2.3.*
 # tensorflow-gpu==2.3.*
-tensorflow-addons==0.13.*
+# tensorflow-addons==0.13.*
 requests
 keras
 beautifulsoup4
-pandas==1.0.0
-numpy==1.19.5
+pandas
+numpy
 lxml
 loguru
 grpcio
